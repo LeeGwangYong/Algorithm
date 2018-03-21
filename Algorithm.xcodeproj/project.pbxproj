@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FC9A957B2060CD62004A7A6B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FC9A957A2060CD62004A7A6B /* main.cpp */; };
+		FC9A959D20625285004A7A6B /* 2573.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FC9A959C20625285004A7A6B /* 2573.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +24,10 @@
 
 /* Begin PBXFileReference section */
 		FC9A95772060CD62004A7A6B /* Algorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Algorithm; sourceTree = BUILT_PRODUCTS_DIR; };
-		FC9A957A2060CD62004A7A6B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		FC9A957A2060CD62004A7A6B /* 1260.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 1260.cpp; sourceTree = "<group>"; };
+		FC9A959620615B7B004A7A6B /* 2468.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 2468.cpp; sourceTree = "<group>"; };
+		FC9A959820620FCE004A7A6B /* 2644.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 2644.cpp; sourceTree = "<group>"; };
+		FC9A959C20625285004A7A6B /* 2573.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = 2573.cpp; path = Algorithm/2573.cpp; sourceTree = SOURCE_ROOT; tabWidth = 4; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +60,20 @@
 		FC9A95792060CD62004A7A6B /* Algorithm */ = {
 			isa = PBXGroup;
 			children = (
-				FC9A957A2060CD62004A7A6B /* main.cpp */,
+				FC9A959B20625269004A7A6B /* BFS_DFS */,
 			);
 			path = Algorithm;
+			sourceTree = "<group>";
+		};
+		FC9A959B20625269004A7A6B /* BFS_DFS */ = {
+			isa = PBXGroup;
+			children = (
+				FC9A957A2060CD62004A7A6B /* 1260.cpp */,
+				FC9A959620615B7B004A7A6B /* 2468.cpp */,
+				FC9A959820620FCE004A7A6B /* 2644.cpp */,
+				FC9A959C20625285004A7A6B /* 2573.cpp */,
+			);
+			path = BFS_DFS;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,7 +133,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC9A957B2060CD62004A7A6B /* main.cpp in Sources */,
+				FC9A959D20625285004A7A6B /* 2573.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
